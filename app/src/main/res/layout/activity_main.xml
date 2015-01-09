@@ -11,8 +11,24 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Click Here"
-        android:id="@+id/button"
-        android:layout_centerVertical="true"
+        android:text="Link"
+        android:id="@+id/linkButton"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:id="@+id/uploadButton"
+        android:layout_below="@+id/linkButton"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unlink"
+        android:id="@+id/unlinkButton"
+        android:layout_below="@+id/uploadButton"
         android:layout_centerHorizontal="true"/>
 </RelativeLayout>
